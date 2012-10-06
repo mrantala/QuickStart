@@ -48,8 +48,6 @@
     [self presentModalViewController:picker animated:YES];
 }
 
-- (IBAction)showPicker:(id)sender {
-}
 
 - (void)peoplePickerNavigationControllerDidCancel:
             (ABPeoplePickerNavigationController *)peoplePicker

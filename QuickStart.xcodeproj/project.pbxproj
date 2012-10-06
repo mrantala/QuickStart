@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C938EA1A161FCE2C005EBCD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C938EA19161FCE2C005EBCD8 /* UIKit.framework */; };
 		C938EA1C161FCE2C005EBCD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C938EA1B161FCE2C005EBCD8 /* Foundation.framework */; };
-		C938EA1E161FCE2C005EBCD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C938EA1D161FCE2C005EBCD8 /* CoreGraphics.framework */; };
 		C938EA24161FCE2C005EBCD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C938EA22161FCE2C005EBCD8 /* InfoPlist.strings */; };
 		C938EA26161FCE2C005EBCD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C938EA25161FCE2C005EBCD8 /* main.m */; };
 		C938EA2A161FCE2C005EBCD8 /* QuickStartAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C938EA29161FCE2C005EBCD8 /* QuickStartAppDelegate.m */; };
@@ -21,6 +20,9 @@
 		C938EA3D161FCE2C005EBCD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C938EA1B161FCE2C005EBCD8 /* Foundation.framework */; };
 		C938EA45161FCE2C005EBCD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C938EA43161FCE2C005EBCD8 /* InfoPlist.strings */; };
 		C938EA48161FCE2C005EBCD8 /* QuickStartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C938EA47161FCE2C005EBCD8 /* QuickStartTests.m */; };
+		C938EA52161FCEC9005EBCD8 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C938EA51161FCEC9005EBCD8 /* CoreAudio.framework */; };
+		C938EA54161FCF04005EBCD8 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C938EA53161FCF04005EBCD8 /* AddressBook.framework */; };
+		C938EA56161FCF0D005EBCD8 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C938EA55161FCF0D005EBCD8 /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		C938EA44161FCE2C005EBCD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C938EA46161FCE2C005EBCD8 /* QuickStartTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickStartTests.h; sourceTree = "<group>"; };
 		C938EA47161FCE2C005EBCD8 /* QuickStartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickStartTests.m; sourceTree = "<group>"; };
+		C938EA51161FCEC9005EBCD8 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C938EA53161FCF04005EBCD8 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		C938EA55161FCF0D005EBCD8 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C938EA56161FCF0D005EBCD8 /* AddressBookUI.framework in Frameworks */,
+				C938EA54161FCF04005EBCD8 /* AddressBook.framework in Frameworks */,
+				C938EA52161FCEC9005EBCD8 /* CoreAudio.framework in Frameworks */,
 				C938EA1A161FCE2C005EBCD8 /* UIKit.framework in Frameworks */,
 				C938EA1C161FCE2C005EBCD8 /* Foundation.framework in Frameworks */,
-				C938EA1E161FCE2C005EBCD8 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +90,9 @@
 		C938EA0A161FCE2C005EBCD8 = {
 			isa = PBXGroup;
 			children = (
+				C938EA55161FCF0D005EBCD8 /* AddressBookUI.framework */,
+				C938EA53161FCF04005EBCD8 /* AddressBook.framework */,
+				C938EA51161FCEC9005EBCD8 /* CoreAudio.framework */,
 				C938EA1F161FCE2C005EBCD8 /* QuickStart */,
 				C938EA40161FCE2C005EBCD8 /* QuickStartTests */,
 				C938EA18161FCE2C005EBCD8 /* Frameworks */,

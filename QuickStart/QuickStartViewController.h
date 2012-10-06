@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AddressBookUI/AddressBookUI.h>
 
 @interface QuickStartViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UILabel *firstName;
+@property (weak, nonatomic) IBOutlet UILabel *phoneNumber;
+
+- (IBAction)showPicker:(id)sender;
 
 @end
